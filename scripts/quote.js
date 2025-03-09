@@ -45,6 +45,8 @@ const QUOTES = [
 // Quotes' elements
 const quoteTitle = document.querySelector(".quote h1");
 const quoteAuthor = document.querySelector(".quote h3");
+
+// Pick one quote from the array
 const todaysQuote = QUOTES[Math.floor(Math.random() * QUOTES.length)];
 
 quoteTitle.innerHTML = todaysQuote.quote;
