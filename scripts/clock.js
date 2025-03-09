@@ -3,7 +3,7 @@ const clock = document.querySelector(".clock");
 const date = clock.querySelector(".clock__date");
 const time = clock.querySelector(".clock__time");
 
-// Function contains setInterval to update time every one second
+// Update time with setInterval that updates time every one second
 const updateTime = () => {
   setInterval(() => {
     const now = new Date();
@@ -16,7 +16,7 @@ const updateTime = () => {
       year: "numeric",
     };
 
-    date.innerHTML = now.toLocaleDateString("en-GB", options);
+    date.innerHTML = now.toLocaleDateString("en-GB", options); // options show weekday and month in string
     time.innerHTML = now.toLocaleTimeString("en-US");
   }, 1000);
 };
