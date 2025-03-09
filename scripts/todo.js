@@ -1,3 +1,4 @@
+// Todo and its elements
 const todo = document.querySelector(".todo");
 const todoForm = todo.querySelector(".todo-form");
 const todoInput = todoForm.querySelector("input");
