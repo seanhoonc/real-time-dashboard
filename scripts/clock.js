@@ -18,7 +18,9 @@ const updateTime = () => {
 
     date.innerHTML = now.toLocaleDateString("en-GB", options); // options show weekday and month in string
     time.innerHTML = now.toLocaleTimeString("en-US");
-  }, 1000);
+  }, 500);
 };
 
 updateTime();
+
+// loading delayed 1000ms since the function is not executed immediately

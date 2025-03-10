@@ -44,3 +44,15 @@ main {
 .hidden {
   display: none;
 }
+
+.underline-input {
+  background: none;
+  border: none;
+  border-bottom: 2px solid azure;
+  outline: none;
+  padding: 3px 0;
+}
+
+.underline-input::placeholder {
+  color: azure;
+}
