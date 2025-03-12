@@ -21,6 +21,6 @@ navigator.geolocation.getCurrentPosition(
       });
   },
   (error) => {
-    alert("Error:", error.message);
+    weatherLocation.innerHTML = "Cannot load your location details";
   }
 );

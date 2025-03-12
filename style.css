@@ -24,6 +24,12 @@ main {
   height: 100vh;
 }
 
+button {
+  margin: 10px;
+  background-color: azure;
+  border: 1px solid skyblue;
+}
+
 /* functions */
 .weather {
   position: absolute;

@@ -38,7 +38,7 @@ const paintTodo = (task) => {
 
   li.id = task.id;
   text.innerText = task.text;
-  button.innerText = "❌";
+  button.className = "fa-solid fa-x";
   button.addEventListener("click", removeTodo);
 
   li.appendChild(text);
